@@ -7,11 +7,11 @@ var Alexa = require('alexa-sdk');
 
 //Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.  
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
-var APP_ID = undefined;
+var APP_ID = "amzn1.ask.skill.205d4a49-6d8a-492e-95a2-142b1d0c4b74";
 
-var SKILL_NAME = "Space Facts";
-var GET_FACT_MESSAGE = "Here's your fact: ";
-var HELP_MESSAGE = "You can say tell me a space fact, or, you can say exit... What can I help you with?";
+var SKILL_NAME = "American Cancer Facts";
+var GET_FACT_MESSAGE = "Fact: ";
+var HELP_MESSAGE = "You can say tell me a cancer fact, or, you can say exit... What can I help you with?";
 var HELP_REPROMPT = "What can I help you with?";
 var STOP_MESSAGE = "Goodbye!";
 
@@ -19,19 +19,20 @@ var STOP_MESSAGE = "Goodbye!";
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 var data = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "Direct medical costs for cancer in the U S in two thousand thirteen alone, reached seventy four point eight billion dollars.",
+    "People with lower socioeconomic status have higher cancer death rates regardless race or ethnicity.",
+    "Alcohol consumption is a risk factor for cancers of the mouth, pharynx, larynx, esophagus, liver, colorectum, female breast, and possibly pancreas.",
+    "Living a physically active lifestyle helps reduce the risk of a variety of cancer types, as well as heart disease, diabetes, and many other diseases.",
+    "Overweight and obesity are clearly associated with increased risk for developing many cancers.",
+    "Adults who follow healthy lifestyle recommendations are thirty six percent less likely to be diagnosed with cancer.",
+    "Adults who follow healthy lifestyle recommendations are forty percent less likely to die from cancer.",
+    "Smoking cessation reduces the risk of lung and other cancers caused by smoking.",
+    "New cancer cases in twenty seventeen in the U S is estimated to reach one million, six hundred eighty eight thousand.",
+    "Cancer deaths in twenty seventeen in the U S is estimated to reach six hundred thousand nine hundred twenty.",
+    "Expect about four thousand six hundred thirty new cancer cases to open each day in the U S in twenty seventeen.",
+    "About one thousand six hundred fifty people will die from cancer each day in the U S in twenty seventeen.",
+    "The top three incidence rates of cancer in the U S from two thousand nine to two thousand thirteen include female breasts at the top, followed by prostate, followed by lung.",
+    "The top three cancer causing deaths in the U S from two thousand ten to two thousand fourteen include lung at the top, followed by female breasts, followed by prostate."
 ];
 
 //=========================================================================================================================================
